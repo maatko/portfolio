@@ -1,0 +1,30 @@
+.profile-showcase {
+    display: flex;
+    border-right: 3px solid #e5e5e5;
+    border-radius: 10px;
+}
+
+#big {
+    font-size: 2em;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 50px;
+    width:100%;
+}
+
+#content > .left {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#content > .right {
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+header > a {
+    color: #fff !important;
+}

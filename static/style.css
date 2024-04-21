@@ -129,3 +129,16 @@ body {
 .secondary {
     background-color: #D6D094;
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width:100vw;
+    padding: 25px;
+    background: #fff;
+    border-top: 1px solid #ccc;
+}
